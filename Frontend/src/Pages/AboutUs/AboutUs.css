@@ -1,0 +1,72 @@
+
+
+.body1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section1{
+    background: url(../../../public/ABT.jpg) no-repeat left;
+    background-size: 65%;
+    background-position: cover;
+    background-color: #000000;
+    overflow: hidden;
+    
+}
+
+.inner-container1{
+    width: 49%;
+    float: right;
+    padding-left: 40px;
+    padding-right:30px;
+    background-color: #fdfdfd;
+}
+
+.inner-container1 h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text1{
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+.skills1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section1{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section1{
+        padding: 0;
+    }
+    .inner-container1{
+        padding: 60px;
+    }
+}

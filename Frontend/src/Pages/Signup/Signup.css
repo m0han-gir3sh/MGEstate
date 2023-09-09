@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.signup-page{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url(../../../public/condo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.logo-pic2
+{
+    
+    top: 18%;
+    left:57%;
+    position: absolute;
+    height: 530px;
+    width: 500px;
+    background-image: url(../../../public/2.png);
+    border-radius: 70px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 20, 0.35) 15px;
+    opacity: 0.9;
+    color: white;
+
+}
+.logo-pic2:hover{
+    opacity:1;
+}
+.signup-box{
+    top: 15%;
+    left: 11%;
+    position: absolute;
+    height: 580px;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity:0.95;
+}
+.signup-box:hover
+{
+    opacity: 1;
+}
+.signup-text{
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+.username-text{
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.username-in{
+    position: absolute;
+    top: 22.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    
+}
+.username-in:hover{
+    border: 2px solid rgb(255, 255, 0);
+    width: 380px;
+    left:9%
+
+}
+.mail2-text{
+    position: absolute;
+    top: 33.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    
+    color: white;
+}
+.mail2-in{
+    position: absolute;
+    top: 38.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+}
+.mail2-in:hover{
+    border: 2px solid rgb(255, 255, 0);
+    width: 380px;
+    left:9%
+
+}
+.pw2-text1{
+    position: absolute;
+    top: 49.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+    color: white;
+
+}
+.pw2-in1{
+    position: absolute;
+    top: 54.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+}
+.pw2-in1:hover{
+    border: 2px solid rgb(255, 255, 0);
+    width: 380px;
+    left:9%
+
+}
+.pw2-text2{
+    position: absolute;
+    top: 65.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+    color: white;
+}
+.pw2-in2{
+    position: absolute;
+    top: 70.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+}
+.pw2-in2:hover{
+    
+    border: 2px solid rgb(255, 255, 0);
+    width: 380px;
+    left:9%
+}
+.signup-btn{
+    position: absolute;
+    top: 83.5%;
+    left: 10%;
+    width: 396px;
+    height: 46px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(53, 52, 52);
+}
+.signup-btn:hover{
+    background-image: linear-gradient(to right, rgb(100, 72, 72) , rgb(233, 166, 166));
+}
+.pwerror-text{
+    color: red;
+    position: absolute;
+    top: 50.1%;
+    left: 26%;
+    font-size: 12.5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.cpwerror-text{
+    color: red;
+    position: absolute;
+    top: 66.1%;
+    left: 39.5%;
+    font-size: 12.5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.unerror-text{
+    color: red;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+    font-size: 12.5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.mailerror-text{
+    color: red;
+    position: absolute;
+    top: 34.2%;
+    left: 20%;
+    font-size: 12.5px;
+    font-family: 'Quicksand', sans-serif;
+}

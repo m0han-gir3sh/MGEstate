@@ -1,0 +1,103 @@
+.navbar-page{
+    background-image: linear-gradient(to bottom right, rgb(175, 66, 99), rgb(205, 89, 112));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.navbar-div ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline-start: -20px;
+    list-style-type: none;
+}
+.nav-logo{
+    height: 80px;
+    width: 110px;
+    display: flex;
+    padding-right: 970px;
+    justify-content: space-between;
+}
+.navcontent{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    border-color:100px rgb(183, 9, 9);
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-family: Copperplate Gothic Light;
+    padding: 10px;
+    margin: 4px 2px;
+    transition: 0.1s;
+    top: 3%;
+    left:10%;   
+}
+.nav-searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 320px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.homebtn{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    background-color: pink;
+    border-color:100px rgb(183, 9, 9);
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: 4px 2px;
+    transition: 0.1s;
+    top:3%;
+    left:44%;
+
+    
+}
+.logoutbtn{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    background-color: pink;
+    border-color:100px rgb(183, 9, 9);
+    border-radius: 100px;
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 11px;
+    transition: 0.1s;
+    top:4%;
+    left:95.5%;
+}
+
+.abtusbtn{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    background-color: pink;
+    border-color:100px rgb(183, 9, 9);
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: 4px 2px;
+    transition: 0.1s;
+    top:3%;
+    left:52%;
+}
+.abtusbtn:hover,.homebtn:hover,.logoutbtn:hover{
+    transform: scale(1.1);
+}

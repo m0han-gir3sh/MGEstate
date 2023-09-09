@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.edit-page{
+    width:100vw;
+    height: 100vh;
+    z-index: 20 ;
+    position: fixed;
+    top:0;
+    background-image: url(../.././public/bg-04.jpg);
+    left: 0;
+}
+.edit-box{
+    top: 16%;
+    left: 33%;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(214, 158, 28);
+    border-radius: 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.edit-text{
+    position: absolute;
+    top: 6%;
+    left: 28%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+
+}
+.canceleditest-btn
+{
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    padding-top: 5px;
+    font-size: 20px;
+    border: 0.5px black solid;
+    background-color: rgba(245, 245, 220, 0.001)
+}
+.canceleditest-btn:hover{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 233, 15);
+    cursor: pointer;
+    scale: 1.2;
+}
+.editestname-in, .editestrate-in, 
+.editestlocation-in, .editesturl-in {
+    width: 385px;
+    color:aliceblue;
+    
+    border-radius: 30px;
+    border-color: white;
+    
+}
+.editestname-div{
+    position: absolute;
+    top: 20%;
+    left: 8.5%;
+    padding: 10px;
+    color: white;
+}
+.editestrate-div{
+    position: absolute;
+    top: 34%;
+    left: 8.5%;
+    padding: 10px;
+}
+.editesturl-div{
+    position: absolute;
+    top: 48%;
+    left: 8.5%;
+    padding: 10px;
+}
+.editestlocation-div{
+    position: absolute;
+    top: 62%;
+    left: 8.5%;
+    padding: 10px;
+
+}
+.editesturl-div:hover{
+    scale: 1.02;
+}
+.editestlocation-div:hover,.editestname-div:hover,.editestrate-div:hover{
+    
+    border-radius: 20px;
+    scale: 1.01;
+}
+.editest-btn{
+    position: absolute;
+    top: 80%;
+    left: 9.5%;
+    width: 396px;
+    height: 46px;
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(53, 52, 52);
+}
+.editest-btn:hover{
+    background-image: linear-gradient(to left, rgb(181, 159, 34) , rgb(243, 207, 7));;
+    cursor: pointer;
+    color: black;
+}
